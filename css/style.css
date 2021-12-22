@@ -351,8 +351,8 @@ select {
 .c-nav .c-menu>div {
   background: var(--global-color-background);
   border-radius: 50%;
-  width: 200vw;
-  height: 200vw;
+  width: 250vw;
+  height: 250vw;
   display: flex;
   flex: none;
   align-items: center;
@@ -593,6 +593,11 @@ select {
   /*
   # Components 
   */
+
+  .c-title {
+    font-size: 4.6rem;
+  }
+  
   .c-nav {
     margin: 4rem;
     top: 0;
@@ -600,8 +605,8 @@ select {
     right: 50px;
   }
 
-  .c-nav__icon {
-    max-height: 56px;
+  .c-menu__item {
+    font-size: 2.5rem;
   }
 
   .u-1-of-2-bp2 {
