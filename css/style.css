@@ -227,13 +227,13 @@ select {
 .c-nav {
   position: fixed;
   margin: 2rem;
-  bottom: 50px;
+  bottom: 80px;
   right: 50px;
   z-index: 1;
 }
 
 .c-nav__icon {
-  max-height: 64px;
+  max-height: 80px;
 }
 
 .c-nav__icon--close {
@@ -242,8 +242,8 @@ select {
   fill: var(--global-color-white);
   opacity: 0;
   transition: var(--global-transition-animation) !important;
-  height: 48px;
-  width: 48px;
+  height: 64px;
+  width: 64px;
 }
 
 .c-nav .c-menu--toggler {
@@ -402,9 +402,11 @@ select {
 
 .c-rocket__image {
   max-height: 80%;
-  max-width: 400px;
+  max-width: 100%;
   margin-bottom: 24px;
   border-radius: 2%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .c-rocket-list {
@@ -592,7 +594,7 @@ select {
   # Components 
   */
   .c-nav {
-    margin: 1rem;
+    margin: 4rem;
     top: 0;
     bottom: 0;
     right: 50px;
@@ -614,6 +616,19 @@ select {
 
   .c-rocket-list__item+.c-rocket-list__item {
     margin-top: 0rem;
+  }
+
+  .c-rocket-list {
+    font-size: 2.4rem;
+
+  }
+
+  .c-rocket-list__item {
+    margin-bottom: 2rem;
+  }
+
+  .c-rocket__item--title {
+    font-size: 2.6rem
   }
 
   /*
