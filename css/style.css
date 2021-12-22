@@ -660,4 +660,8 @@ select {
   .c-rocket__item--title {
     font-size: 2.6rem
   }
+
+  .c-nav__icon {
+    max-height: 100px;
+  }
 }
