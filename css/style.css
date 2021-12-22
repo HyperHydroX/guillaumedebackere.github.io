@@ -11,8 +11,7 @@
   /* --global-color-background: linear-gradient(25deg, #09203f 25%, #537895 100%);  */
   --global-color-background: radial-gradient(circle at center, #204968 25%, #09203f 75%);
   --global-color-white: #FFFFFF;
-  --global-color-grey: #a8a9ad
-;
+  --global-color-grey: #a8a9ad;
 
   /* Baseline */
   --global-baseline: 8px;
@@ -594,10 +593,6 @@ select {
   # Components 
   */
 
-  .c-title {
-    font-size: 4.6rem;
-  }
-
   .c-nav {
     margin: 4rem;
     top: 0;
@@ -624,18 +619,6 @@ select {
     margin-top: 0rem;
   }
 
-  .c-rocket-list {
-    font-size: 2.4rem;
-
-  }
-
-  .c-rocket-list__item {
-    margin-bottom: 2rem;
-  }
-
-  .c-rocket__item--title {
-    font-size: 2.6rem
-  }
 
   /*
   # UTILITIES 
@@ -659,4 +642,22 @@ select {
 
 /* Extra large devices (large desktops, 1200px and up) */
 /* @Media (min-width: 1200px) */
-@media screen and (min-width: 75em) {}
+@media screen and (min-width: 75em) {
+
+  .c-title {
+    font-size: 4.6rem;
+  }
+
+  .c-rocket-list {
+    font-size: 2.4rem;
+
+  }
+
+  .c-rocket-list__item {
+    margin-bottom: 2rem;
+  }
+
+  .c-rocket__item--title {
+    font-size: 2.6rem
+  }
+}
