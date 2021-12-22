@@ -597,7 +597,7 @@ select {
   .c-title {
     font-size: 4.6rem;
   }
-  
+
   .c-nav {
     margin: 4rem;
     top: 0;
@@ -607,6 +607,7 @@ select {
 
   .c-menu__item {
     font-size: 2.5rem;
+    padding: 2rem;
   }
 
   .u-1-of-2-bp2 {
