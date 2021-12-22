@@ -664,4 +664,9 @@ select {
   .c-nav__icon {
     max-height: 100px;
   }
+
+  .c-nav .c-menu--toggler {
+    left: 13px;
+    height: 100px;
+  }
 }
